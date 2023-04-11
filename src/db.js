@@ -1,0 +1,10 @@
+import { createPool } from "mysql2/promise"; //el pool es para un conjunto de conexiones
+import { DB_DATABASE, DB_HOST, DB_USER, DB_PASSWORD } from "./config.js";
+const pool = createPool({
+  host: DB_HOST,
+  user: DB_USER,
+  password: DB_PASSWORD,
+  database: DB_DATABASE,
+  port: 3306,
+});
+export { pool };

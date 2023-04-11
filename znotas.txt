@@ -1,0 +1,10 @@
+*se instalo dotenv  para el manejo de variable de entorno
+*Se crear un archivo .env ahi colocas las variables , luego creas config.js
+*se usaro railway para desplegar
+"start": "node src/index.js" se coloca en package.json para iniciar en produccion la aplicacion
+
+
+******PARA DESPLEGAR
+1.subir a github
+2.lobearte en railway
+3.new project /deploy github
